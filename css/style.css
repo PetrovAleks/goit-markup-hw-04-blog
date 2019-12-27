@@ -14,6 +14,10 @@ body {
 
 }
 
+h1 {
+    visibility: hidden;
+}
+
 
 
 ul {
@@ -56,7 +60,6 @@ ul {
 .nav-link-item:hover,
 .nav-link-item:focus {
     color: #03a9f4;
-    text-transform: uppercase;
 }
 
 main {
@@ -126,17 +129,24 @@ img {
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
 
-
-    color: #b4ad9e;
-
     margin: 32px 0px;
 
 
 }
 
+.link-topic {
+    color: #b4ad9e;
+    text-decoration: none;
+
+}
+
+.link-topic:focus,
+.link-topic:hover {
+    color: #03a9f4;
+}
+
 .preview-text {
     text-align: left;
-    /* margin-bottom: 135px; */
 }
 
 
