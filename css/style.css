@@ -23,6 +23,7 @@ h1 {
 }
 
 .nav-link-list {
+  margin: 0px;
   list-style: none;
 
   display: flex;
@@ -30,8 +31,11 @@ h1 {
 
   width: 570px;
 
-  margin: 75px auto 100px auto;
-  padding: 12px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 100px;
+
 }
 
 .nav-link-item {
@@ -115,6 +119,8 @@ h1 {
 }
 
 .button {
+  padding: 0px;
+  margin: 0px;
   display: block;
   justify-content: center;
   align-items: center;
